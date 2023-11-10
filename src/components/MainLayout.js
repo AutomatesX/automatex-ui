@@ -13,6 +13,7 @@ function MainLayout({ children }) {
                 <Flowbite theme={{
                     dark: true
                 }}>
+
                     <HandleNavbar/>
                     {children}
                 </Flowbite>
