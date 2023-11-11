@@ -352,86 +352,114 @@ function HeroSection() {
             </section>
 
         {/* Achievement    */}
-            <main> class
+            <main className="bg-emerald-50 w-full mt-8">
                 <div className="items-center max-w-screen-xl px-4 py-8 mx-auto lg:grid lg:grid-cols-4 lg:gap-16 xl:gap-24 lg:py-24 lg:px-6">
                     <div className="col-span-2 mb-8">
-                        <p className="text-lg font-medium text-purple-600 dark:text-purple-500">Trusted Worldwide</p>
-                        <h2 className="mt-3 mb-4 text-3xl font-extrabold tracking-tight text-gray-900 md:text-3xl dark:text-white">Trusted
-                            by over 600 million users and 10,000 teams</h2>
-                        <p className="font-light text-gray-500 sm:text-xl dark:text-gray-400">Our rigorous security and compliance standards
-                            are at the heart of all we do. We work tirelessly to protect you and your customers.</p>
-                        <div className="pt-6 mt-6 space-y-4 border-t border-gray-200 dark:border-gray-700">
-                            <div>
-                                <a href="#"
-                                   className="inline-flex items-center text-base font-medium text-purple-600 hover:text-purple-800 dark:text-purple-500 dark:hover:text-purple-700">
-                                    Explore Legality Guide
-                                    <svg className="w-5 h-5 ml-1" fill="currentColor" viewBox="0 0 20 20"
-                                         xmlns="http://www.w3.org/2000/svg">
-                                        <path fill-rule="evenodd"
-                                              d="M12.293 5.293a1 1 0 011.414 0l4 4a1 1 0 010 1.414l-4 4a1 1 0 01-1.414-1.414L14.586 11H3a1 1 0 110-2h11.586l-2.293-2.293a1 1 0 010-1.414z"
-                                              clip-rule="evenodd"></path>
-                                    </svg>
-                                </a>
-                            </div>
-                            <div>
-                                <a href="#"
-                                   className="inline-flex items-center text-base font-medium text-purple-600 hover:text-purple-800 dark:text-purple-500 dark:hover:text-purple-700">
-                                    Visit the Trust Center
-                                    <svg className="w-5 h-5 ml-1" fill="currentColor" viewBox="0 0 20 20"
-                                         xmlns="http://www.w3.org/2000/svg">
-                                        <path fill-rule="evenodd"
-                                              d="M12.293 5.293a1 1 0 011.414 0l4 4a1 1 0 010 1.414l-4 4a1 1 0 01-1.414-1.414L14.586 11H3a1 1 0 110-2h11.586l-2.293-2.293a1 1 0 010-1.414z"
-                                              clip-rule="evenodd"></path>
-                                    </svg>
-                                </a>
-                            </div>
-                        </div>
+                        <h1 className="mt-2 md:text-5xl font-bold text-blue-500 text-3xl dark:text-white !important mb-4">Helping a local Business</h1>
+                        <h1 className="mt-2 md:text-5xl font-bold text-yellow-300 text-3xl dark:text-white !important mb-10">reinvent itself</h1>
+                        <p className="font-medium text-gray-500 sm:text-lg dark:text-gray-400">We reached here with our hard work hand and dedication</p>
+
                     </div>
                     <div className="col-span-2 space-y-8 md:grid md:grid-cols-2 md:gap-12 md:space-y-0">
                         <div>
-                            <svg className="w-10 h-10 mb-2 text-purple-600 md:w-12 md:h-12 dark:text-purple-500" fill="currentColor"
-                                 viewBox="0 0 20 20" xmlns="http://www.w3.org/2000/svg">
-                                <path fill-rule="evenodd"
-                                      d="M2 5a2 2 0 012-2h12a2 2 0 012 2v2a2 2 0 01-2 2H4a2 2 0 01-2-2V5zm14 1a1 1 0 11-2 0 1 1 0 012 0zM2 13a2 2 0 012-2h12a2 2 0 012 2v2a2 2 0 01-2 2H4a2 2 0 01-2-2v-2zm14 1a1 1 0 11-2 0 1 1 0 012 0z"
-                                      clip-rule="evenodd"></path>
+                            <svg className="w-8 h-8 mb-2 text-yellow-300 md:w-12 md:h-12 dark:text-purple-500" xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="1.5" stroke="currentColor">
+                                <path stroke-linecap="round" stroke-linejoin="round" d="M15 19.128a9.38 9.38 0 002.625.372 9.337 9.337 0 004.121-.952 4.125 4.125 0 00-7.533-2.493M15 19.128v-.003c0-1.113-.285-2.16-.786-3.07M15 19.128v.106A12.318 12.318 0 018.624 21c-2.331 0-4.512-.645-6.374-1.766l-.001-.109a6.375 6.375 0 0111.964-3.07M12 6.375a3.375 3.375 0 11-6.75 0 3.375 3.375 0 016.75 0zm8.25 2.25a2.625 2.625 0 11-5.25 0 2.625 2.625 0 015.25 0z" />
                             </svg>
-                            <h3 className="mb-2 text-2xl font-bold dark:text-white">99.99% uptime</h3>
-                            <p className="font-light text-gray-500 dark:text-gray-400">For Landwind, with zero maintenance downtime</p>
+
+                            <h3 className="mb-2 text-2xl font-bold dark:text-white">2212</h3>
+                            <p className="font-light text-gray-500 dark:text-gray-400">Clients</p>
                         </div>
                         <div>
-                            <svg className="w-10 h-10 mb-2 text-purple-600 md:w-12 md:h-12 dark:text-purple-500" fill="currentColor"
-                                 viewBox="0 0 20 20" xmlns="http://www.w3.org/2000/svg">
-                                <path
-                                    d="M9 6a3 3 0 11-6 0 3 3 0 016 0zM17 6a3 3 0 11-6 0 3 3 0 016 0zM12.93 17c.046-.327.07-.66.07-1a6.97 6.97 0 00-1.5-4.33A5 5 0 0119 16v1h-6.07zM6 11a5 5 0 015 5v1H1v-1a5 5 0 015-5z">
-                                </path>
+                            <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="1.5" stroke="currentColor" className="w-8 h-8 mb-2 text-yellow-300 md:w-12 md:h-12 dark:text-purple-500">
+                                <path stroke-linecap="round" stroke-linejoin="round" d="M10.05 4.575a1.575 1.575 0 10-3.15 0v3m3.15-3v-1.5a1.575 1.575 0 013.15 0v1.5m-3.15 0l.075 5.925m3.075.75V4.575m0 0a1.575 1.575 0 013.15 0V15M6.9 7.575a1.575 1.575 0 10-3.15 0v8.175a6.75 6.75 0 006.75 6.75h2.018a5.25 5.25 0 003.712-1.538l1.732-1.732a5.25 5.25 0 001.538-3.712l.003-2.024a.668.668 0 01.198-.471 1.575 1.575 0 10-2.228-2.228 3.818 3.818 0 00-1.12 2.687M6.9 7.575V12m6.27 4.318A4.49 4.49 0 0116.35 15m.002 0h-.002" />
                             </svg>
-                            <h3 className="mb-2 text-2xl font-bold dark:text-white">600M+ Users</h3>
-                            <p className="font-light text-gray-500 dark:text-gray-400">Trusted by over 600 milion users around the world</p>
+
+                            <h3 className="mb-2 text-2xl font-bold dark:text-white">229</h3>
+                            <p className="font-light text-gray-500 dark:text-gray-400">Collaboration</p>
                         </div>
                         <div>
-                            <svg className="w-10 h-10 mb-2 text-purple-600 md:w-12 md:h-12 dark:text-purple-500" fill="currentColor"
-                                 viewBox="0 0 20 20" xmlns="http://www.w3.org/2000/svg">
-                                <path fill-rule="evenodd"
-                                      d="M10 18a8 8 0 100-16 8 8 0 000 16zM4.332 8.027a6.012 6.012 0 011.912-2.706C6.512 5.73 6.974 6 7.5 6A1.5 1.5 0 019 7.5V8a2 2 0 004 0 2 2 0 011.523-1.943A5.977 5.977 0 0116 10c0 .34-.028.675-.083 1H15a2 2 0 00-2 2v2.197A5.973 5.973 0 0110 16v-2a2 2 0 00-2-2 2 2 0 01-2-2 2 2 0 00-1.668-1.973z"
-                                      clip-rule="evenodd"></path>
+                            <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="1.5" stroke="currentColor" className="w-8 h-8 mb-2 text-yellow-300 md:w-12 md:h-12 dark:text-purple-500">
+                                <path stroke-linecap="round" stroke-linejoin="round" d="M6.633 10.5c.806 0 1.533-.446 2.031-1.08a9.041 9.041 0 012.861-2.4c.723-.384 1.35-.956 1.653-1.715a4.498 4.498 0 00.322-1.672V3a.75.75 0 01.75-.75A2.25 2.25 0 0116.5 4.5c0 1.152-.26 2.243-.723 3.218-.266.558.107 1.282.725 1.282h3.126c1.026 0 1.945.694 2.054 1.715.045.422.068.85.068 1.285a11.95 11.95 0 01-2.649 7.521c-.388.482-.987.729-1.605.729H13.48c-.483 0-.964-.078-1.423-.23l-3.114-1.04a4.501 4.501 0 00-1.423-.23H5.904M14.25 9h2.25M5.904 18.75c.083.205.173.405.27.602.197.4-.078.898-.523.898h-.908c-.889 0-1.713-.518-1.972-1.368a12 12 0 01-.521-3.507c0-1.553.295-3.036.831-4.398C3.387 10.203 4.167 9.75 5 9.75h1.053c.472 0 .745.556.5.96a8.958 8.958 0 00-1.302 4.665c0 1.194.232 2.333.654 3.375z" />
                             </svg>
-                            <h3 className="mb-2 text-2xl font-bold dark:text-white">100+ countries</h3>
-                            <p className="font-light text-gray-500 dark:text-gray-400">Have used Landwind to create functional websites</p>
+
+                            <h3 className="mb-2 text-2xl font-bold dark:text-white">828</h3>
+                            <p className="font-light text-gray-500 dark:text-gray-400">Deploy Service</p>
                         </div>
                         <div>
-                            <svg className="w-10 h-10 mb-2 text-purple-600 md:w-12 md:h-12 dark:text-purple-500" fill="currentColor"
-                                 viewBox="0 0 20 20" xmlns="http://www.w3.org/2000/svg">
-                                <path
-                                    d="M3 1a1 1 0 000 2h1.22l.305 1.222a.997.997 0 00.01.042l1.358 5.43-.893.892C3.74 11.846 4.632 14 6.414 14H15a1 1 0 000-2H6.414l1-1H14a1 1 0 00.894-.553l3-6A1 1 0 0017 3H6.28l-.31-1.243A1 1 0 005 1H3zM16 16.5a1.5 1.5 0 11-3 0 1.5 1.5 0 013 0zM6.5 18a1.5 1.5 0 100-3 1.5 1.5 0 000 3z">
-                                </path>
+                            <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="1.5" stroke="currentColor" className="w-8 h-8 mb-2 text-yellow-300 md:w-12 md:h-12 dark:text-purple-500">
+                                <path stroke-linecap="round" stroke-linejoin="round" d="M15 13.5H9m4.06-7.19l-2.12-2.12a1.5 1.5 0 00-1.061-.44H4.5A2.25 2.25 0 002.25 6v12a2.25 2.25 0 002.25 2.25h15A2.25 2.25 0 0021.75 18V9a2.25 2.25 0 00-2.25-2.25h-5.379a1.5 1.5 0 01-1.06-.44z" />
                             </svg>
-                            <h3 class="mb-2 text-2xl font-bold dark:text-white">5+ Million</h3>
-                            <p class="font-light text-gray-500 dark:text-gray-400">Transactions per day</p>
+
+                            <h3 class="mb-2 text-2xl font-bold dark:text-white">1924</h3>
+                            <p class="font-light text-gray-500 dark:text-gray-400">Feedback</p>
                         </div>
                     </div>
                 </div>
             </main>
 
+        {/* Our Cilent Sections   */}
+            <div className="container my-24 mx-auto md:px-6">
+                {/* Section: Design Block */}
+                <section className="mb-32 text-center">
+                    <h2 className="text-4xl font-bold text-center pb-28 mt-10">Our Clients</h2>
+
+                    <div className="grid px-6 md:grid-cols-2 lg:grid-cols-4 gap-4">
+                        <div className="mx-auto mb-12 lg:mb-0">
+                            <img
+                                src="/images/cstad.png"
+                                className="px-6 dark:brightness-150 md:px-12 w-24"
+                                alt="Nasa - logo"
+                            />
+                        </div>
+
+                        <div className="mx-auto mb-12 lg:mb-0">
+                            <img
+                                src="/images/brachnha.png"
+                                className="px-6 dark:brightness-150 md:px-12 w-24"
+                                alt="Amazon - logo"
+                            />
+                        </div>
+
+                        <div className="mx-auto mb-12 lg:mb-0">
+                            <img
+                                src="/images/surveybox.png"
+                                className="px-6 dark:brightness-150 md:px-12 w-24"
+                                alt="Nike - logo"
+                            />
+                        </div>
+
+                        <div className="mx-auto mb-12 lg:mb-0">
+                            <img
+                                src="/images/photostad.png"
+                                className="px-6 dark:brightness-150 md:px-12 w-24"
+                                alt="Ikea - logo"
+                            />
+                        </div>
+                        <div className="mx-auto mb-12 lg:mb-0">
+                            <img
+                                src="/images/portistad.png"
+                                className="px-6 dark:brightness-150 md:px-12 w-24"
+                                alt="Ikea - logo"
+                            />
+                        </div>
+                        <div className="mx-auto mb-12 mt-10 lg:mb-0">
+                            <img
+                                src="/images/istaddemy.png"
+                                className="px-6 dark:brightness-150 md:px-12 w-24"
+                                alt="Ikea - logo"
+                            />
+                        </div>
+                        <div className="mx-auto mb-12 mt-10 lg:mb-0">
+                            <img
+                                src="/images/camgiving.png"
+                                className="px-6 dark:brightness-150 md:px-12 w-24"
+                                alt="Ikea - logo"
+                            />
+                        </div>
+                    </div>
+                </section>
+                {/* Section: Design Block */}
+            </div>
 
         </section>
 
